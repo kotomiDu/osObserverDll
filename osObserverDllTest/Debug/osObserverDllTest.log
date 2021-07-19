@@ -1,0 +1,8 @@
+﻿  main.cpp
+     Creating library C:\Users\Kotomi\Documents\project\osObserverDllTest\Debug\osObserverDllTest.lib and object C:\Users\Kotomi\Documents\project\osObserverDllTest\Debug\osObserverDllTest.exp
+main.obj : error LNK2019: unresolved external symbol "public: int __thiscall CPUDetect::InitCPUInfo(struct CPUDetect::CPUData &)" (?InitCPUInfo@CPUDetect@@QAEHAAUCPUData@1@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: wchar_t const * __thiscall ThreadInfo::GetThreadCurrentProcessorStates(struct CPUDetect::CPUData)" (?GetThreadCurrentProcessorStates@ThreadInfo@@QAEPB_WUCPUData@CPUDetect@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall ThreadInfo::UpdateThreadInformation(void)" (?UpdateThreadInformation@ThreadInfo@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl setPowerThrotlling(class ThreadInfo *)" (?setPowerThrotlling@@YAXPAVThreadInfo@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl setAffinity(class ThreadInfo *,unsigned long)" (?setAffinity@@YAXPAVThreadInfo@@K@Z) referenced in function _main
+C:\Users\Kotomi\Documents\project\osObserverDllTest\Debug\osObserverDllTest.exe : fatal error LNK1120: 5 unresolved externals
