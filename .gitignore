@@ -1,3 +1,7 @@
 x64/
 .vs/
 Release/
+Debug/
+osObserverDllTest/Release/
+osObserverDllTest/Debug/
+osObserverDllTest/x64
