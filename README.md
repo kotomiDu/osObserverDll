@@ -3,7 +3,7 @@
 * Log sample, [\*] refers to the active processor.    
 ![Log](doc/log.png)
 * parameter can be `small`, `big`, `all`, `powerthrottle`.
-* `small` `big` indicates using `setAffinty` API to bind the thread with specific processors
-*  `powerthrottle` indicates using `PowerThrottling` API to hint the thread running with power saving mode.
-*  `all` indicates randomly using all processors by OS schedule
+  - `small` `big` indicates using `setAffinty` API to bind the thread with specific processors.
+  -  `powerthrottle` indicates using `PowerThrottling` API to hint the thread running with power saving mode but still schedules by OS.
+  - `all` indicates the thread uses processors scheduled by OS.
 
